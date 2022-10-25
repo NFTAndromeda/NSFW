@@ -1,0 +1,33 @@
+{
+  "name": "nsfw",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.17.2",
+    "@solana/spl-token": "^0.3.5",
+    "@solana/spl-token-swap": "^0.2.1",
+    "@solana/wallet-adapter-base": "^0.9.18",
+    "@solana/wallet-adapter-phantom": "^0.9.17",
+    "@solana/wallet-adapter-react": "^0.15.20",
+    "@solana/wallet-adapter-react-ui": "^0.9.18",
+    "@solana/web3.js": "^1.66.2",
+    "borsh": "^0.7.0",
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.5",
+    "@types/react": "18.0.22",
+    "@types/react-dom": "18.0.7",
+    "eslint": "8.26.0",
+    "eslint-config-next": "12.3.1",
+    "typescript": "4.8.4"
+  }
+}
