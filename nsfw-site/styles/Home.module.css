@@ -11,32 +11,38 @@
 
 
 .topBarWrapper{
-  margin: auto;
-  width: 75%;
-  text-align: center; 
+  width: 82%;
+  text-align: center;
+  height: 100%;
+
 }
 .topBarWrapper ul{
-  padding: 0;
-  margin: 20px;
+  padding: 0px;
+  margin: 20px 0px;
+  
+  
 }
+
 .topBarWrapper ul li a{
   color: aliceblue;
   font-size: 28px;
+}
+.topBarWrapper ul li {
+  margin-top: 0px;
 }
 .topBarWrapper ul li a:hover{
   color: rgba(0,255,100,0.95);
 }
 .topBar button{
-  float: right;
-  margin: 17px 25px;
+  position: absolute;
+  top: 17px;
+  right: 20px;
 }
-.topBar button:hover {
-  background-color: aliceblue !important;
-  color: blue !important;
+.topBar img{
+position: absolute;
+top: 10px;
+left: 10px;
+border-radius: 25px;
 }
 
-
-.topBar *{
-  display: inline-block;
-}
 
