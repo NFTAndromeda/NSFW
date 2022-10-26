@@ -31,21 +31,37 @@
   padding: 25px 30px;
   display: inline-block;
 }
+
 .topBarWrapper ul li div{
-   position: fixed;
-   right: 10px;
+   position: fixed!important;
+   right: 10px!important;
    top: 17px;
+}
+.topBarWrapper ul li div button i img{
+  position: static !important;
+  
+}
+
+
+.topBarWrapper ul li button{
+  position: fixed!important;
+  right: 10px!important;
+  top: 17px;
 }
 
 .topBarWrapper ul li a:hover{
   color: rgba(0,255,100,0.95);
 }
 
-.topBar img{
+.topBarLogo {
 position: fixed;
 top: 10px;
 left: 10px;
 border-radius: 25px;
+}
+.topBarLogoLi{
+  position:fixed;
+  left: 50px;
 }
 
 
