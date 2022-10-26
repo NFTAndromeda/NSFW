@@ -11,31 +11,38 @@
 
 
 .topBarWrapper{
+  margin: auto;
   width: 82%;
   text-align: center;
   height: 100%;
 
 }
 .topBarWrapper ul{
-  padding: 0px;
-  margin: 20px 0px;
-  
-  
+  padding: 0;
+  margin: 0;
 }
 
 .topBarWrapper ul li a{
   color: aliceblue;
   font-size: 28px;
 }
+
 .topBarWrapper ul li {
-  margin-top: 0px;
+  padding: 25px 30px;
+  display: inline-block;
 }
+.topBarWrapper ul li div{
+   position: fixed;
+   right: 10px;
+   top: 17px;
+}
+
 .topBarWrapper ul li a:hover{
   color: rgba(0,255,100,0.95);
 }
 
 .topBar img{
-position: absolute;
+position: fixed;
 top: 10px;
 left: 10px;
 border-radius: 25px;

@@ -7,13 +7,14 @@ export const TopBar: FC = () => {
   return (
    
     <div className={styles.topBar}>
-      <Image src={Logo} alt='logo' height={60} width={60}/>
+      
       <div className={styles.topBarWrapper}>
           <ul>
+            <li><Image src={Logo} alt='logo' height={60} width={60}/></li>
             <li><a>Home</a></li>
-            <li>casa</li>
+            <li><WalletMultiButton/></li>
           </ul>
-          <WalletMultiButton/> 
+           
       </div>
       
     </div>
