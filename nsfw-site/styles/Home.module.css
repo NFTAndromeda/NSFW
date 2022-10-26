@@ -33,11 +33,7 @@
 .topBarWrapper ul li a:hover{
   color: rgba(0,255,100,0.95);
 }
-.topBar button{
-  position: absolute;
-  top: 17px;
-  right: 20px;
-}
+
 .topBar img{
 position: absolute;
 top: 10px;
