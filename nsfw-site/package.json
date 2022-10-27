@@ -9,6 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/lab": "^5.0.0-alpha.105",
+    "@mui/material": "^5.10.11",
     "@solana/wallet-adapter-phantom": "^0.9.17",
     "@solana/wallet-adapter-react": "^0.15.20",
     "@solana/wallet-adapter-react-ui": "^0.9.18",
