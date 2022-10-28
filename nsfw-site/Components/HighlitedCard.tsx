@@ -1,11 +1,11 @@
 import { ReactNode,FC} from "react"
 import styles from "../styles/Home.module.css";
 
-const Cards: FC<{children : ReactNode}> = ({ children } ) => {
+const HighlitedCard: FC<{children : ReactNode}> = ({ children } ) => {
 
     return (
       
-        <div className={styles.card}>   
+        <div className={styles.highlitedCard}>   
             {children}
         </div> 
              
@@ -15,4 +15,4 @@ const Cards: FC<{children : ReactNode}> = ({ children } ) => {
     )
 }
 
-export default Cards
+export default HighlitedCard

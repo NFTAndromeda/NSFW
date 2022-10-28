@@ -4,10 +4,9 @@ import styles from "../styles/Home.module.css";
 const CardsTitle: FC<{ children: ReactNode }> = ({ children } ) => {
 
     return (
-            <div className={styles.cardTitle}>
-                {children}
-            </div>
-        
+        <div className={styles.cardTitle}>
+            {children}
+        </div>
         
     )
 }
